@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+}
+
+body{
+	
+	font-family: 'Raleway', sans-serif;
+	background-image: url('../images/fam.jpg');
+	background-size: cover;
+	
+}
+
+.backgroundimage{}
+.navbar{
+	height: 55px;
+	position: fixed;
+	top: fixed;
+	background-color: rgba(0, 21, 33, 0.27);
+	width: 100%;
+	-webki
+}
+ul{
+	margin:15px;
+	width: 90%;
+}
+ul li{
+	display: inline-block;
+	
+}
+
+ a{
+	text-decoration: none;
+	font-size: 21px;
+	color: white;
+
+}
+.log{
+	float: right;
+}

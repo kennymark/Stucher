@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body html{
+	min-height: 100%;
+}
+body{
+	font-size: 19px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Raleway', sans-serif;
+	background-image:url(../images/books.jpg); 
+	/*source:http://www.pdx.edu/sites/www.pdx.edu.education/files/Multicultural-students.jpg;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.loginbox{
+	margin: auto;
+	text-align: center;
+    box-shadow: 1px 1px 2px 1px #4A4141;
+	width: 400px;
+	height: 360px;
+	margin-top: 50px;
+}
+
+h1{
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 80px;
+	color: #00A87F;
+	margin: auto;
+
+}
+
+
+
+form {
+  
+	margin: auto;
+	overflow: hidden;
+	width: 300px;
+	padding-top: 50px;
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding-top: 0;
+}
+
+input {
+	border-radius: 2px;
+	margin: 0;
+	box-shadow: 0.1px 1px 1px #0A4821;
+}
+
+.account-info {
+    padding: 0px 0px 20px
+ }
+
+.account-info label {
+	color: #FFFFFF;
+	display: block;
+	font-size: 17px;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+
+.account-info input {
+	background: #fff;
+	border: 1px solid #c6c7cc;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+	color: #636466;
+	padding: 10px;
+	margin-top: 6px;
+	width: 85%;
+}
+
+.account-action {
+	background: #f0f0f2;
+	padding: 20px;
+}
+
+.account-action .btn {
+	background: #00A87F;
+	border: 0px solid #0E744B;
+	color: #fff;
+	cursor: pointer;
+	float: left;
+	padding: 8px 16px;
+	font-family: inherit;
+	font-size: 16px;
+}
+
+.account-action label {
+	color: #7c7c80;
+	font-size: 14px;
+	float: right;
+	margin: 10px 10px 5px 9px;
+	
+}
+
+.button{
+	border: 1px solid black;
+	float: right;
+	margin-right: 90px;
+	margin-top: 20px;
+	height: 35px;
+	width: 100px;
+	text-align: center;
+}
+
+a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding-top: 6px;
+	font-size: 18px;
+}
+
+a:hover{
+	color: green;
+
+}
+
